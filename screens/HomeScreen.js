@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import { createBottomTabNavigator, DrawerNavigator } from 'react-navigation'
+import { createBottomTabNavigator, createDrawerNavigator } from 'react-navigation'
 import PlayersTabScreen from './PlayersTabScreen';
 import GameScreen from './GameScreen';
 import SettingsScreen from './SettingsScreen';
@@ -16,7 +16,7 @@ const MainTabNavigator = createBottomTabNavigator({
   }
 });
 
-const AppDrawerNavigator = DrawerNavigator({
+const AppDrawerNavigator = createDrawerNavigator({
   Loading: LoadingScreen,
   Home: MainTabNavigator,
 })
