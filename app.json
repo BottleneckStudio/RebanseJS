@@ -8,7 +8,7 @@
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/rebanse-logo-only.png",
+    "icon": "./assets/rebanse-logo.png",
     "splash": {
       "image": "./assets/rebanse-splash.png",
       "resizeMode": "contain",
